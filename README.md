@@ -1,5 +1,7 @@
 # pla-site
 
+Source code for the Pug Life Alliance Website
+
 ## Build Setup
 
 ```bash
