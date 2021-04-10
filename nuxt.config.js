@@ -11,7 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'PugLifeAlliance - Bridging the gap between casual and hardcore since 2021',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/PugLife_logo.png' },
