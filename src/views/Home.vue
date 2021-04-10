@@ -27,7 +27,7 @@ import Logo from '../components/Logo.vue'
 import Links from '../components/Links.vue'
 
 export default defineComponent({
-  name: 'Home',
+  name: 'home',
   components: { Logo, Links },
 })
 </script>
