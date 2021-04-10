@@ -10,27 +10,12 @@
           have to work or feel like we are obligated to play, we want to dive
           into a story and get lost for a few hours and escape the world. If you
           are looking for a group of like minded people to play with, come and
-          join us. Together we will save games... “Bridging the gap between
-          casual and hardcore since 2021” - Kef
+          join us. Together we will save games...
         </p>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            Documentation
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
+        <p class="quote">
+          <i>Bridging the gap between casual and hardcore since 2021 - Kef</i>
+        </p>
+        <Links />
       </div>
     </div>
   </div>
@@ -44,7 +29,6 @@ export default Vue.extend({})
 
 <style>
 .container {
-  margin: 0 auto;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -53,21 +37,19 @@ export default Vue.extend({})
 }
 .content {
   display: flex;
+  margin: 0 auto;
   max-width: 800px;
-  padding: 15px;
+  padding: 24px;
 }
-
 .about {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 20px;
   color: #ffffff;
-  letter-spacing: 1px;
 }
-
-.links {
-  padding-top: 15px;
+.quote {
+  padding: 20px;
+  font-family: 'Noto Sans JP', Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
 }
 </style>

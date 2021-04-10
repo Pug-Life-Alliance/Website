@@ -18,7 +18,12 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap',
+          'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap',
       },
     ],
   },
@@ -39,9 +44,8 @@ export default {
     [
       '@nuxtjs/fontawesome',
       {
-        component: 'fa',
         icons: {
-          solid: [],
+          brands: ['faTwitter', 'faYoutube', 'faTiktok', 'faDiscord'],
         },
       },
     ],
