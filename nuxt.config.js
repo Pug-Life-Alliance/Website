@@ -45,7 +45,13 @@ export default {
       '@nuxtjs/fontawesome',
       {
         icons: {
-          brands: ['faTwitter', 'faYoutube', 'faTiktok', 'faDiscord'],
+          brands: [
+            'faTwitter',
+            'faYoutube',
+            'faTiktok',
+            'faDiscord',
+            'faTwitch',
+          ],
         },
       },
     ],

@@ -6,10 +6,13 @@
     <a href="https://twitter.com/AlliancePug">
       <font-awesome-icon :icon="['fab', 'twitter']" />
     </a>
-    <a href="https://youtube.com/channel/UCXJeZOH">
+    <a href="https://www.twitch.tv/keflojake">
+      <font-awesome-icon :icon="['fab', 'twitch']" />
+    </a>
+    <a href="https://www.youtube.com/channel/UCXJeZOHlxIoBvMxJqQbjeMQ">
       <font-awesome-icon :icon="['fab', 'youtube']" />
     </a>
-    <a href="google.com">
+    <a href="https://www.tiktok.com/@puglifealliance?lang=en">
       <font-awesome-icon :icon="['fab', 'tiktok']" />
     </a>
   </div>
@@ -17,8 +20,6 @@
 
 <style>
 .links {
-  padding-top: 16px;
-  padding-bottom: 16px;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
