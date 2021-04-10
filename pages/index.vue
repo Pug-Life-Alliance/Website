@@ -42,6 +42,7 @@ export default Vue.extend({})
   padding: 24px;
 }
 .about {
+  padding: 20px;
   font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 20px;
   color: #ffffff;
