@@ -22,9 +22,14 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from 'vue'
+import Logo from '../components/Logo.vue'
+import Links from '../components/Links.vue'
 
-export default Vue.extend({})
+export default defineComponent({
+  name: 'Home',
+  components: { Logo, Links },
+})
 </script>
 
 <style>
