@@ -48,13 +48,13 @@ export default defineComponent({
 }
 .about {
   padding: 20px;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-family: 'Roboto', Georgia, sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
 .quote {
   padding: 20px;
-  font-family: 'Noto Sans JP', Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 18px;
   color: #ffffff;
 }
