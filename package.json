@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "generate": "vue-tsc --noEmit && vite build"
+    "generate": "vite build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
