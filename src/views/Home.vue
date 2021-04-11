@@ -15,7 +15,7 @@
         <p class="quote">
           <i>Bridging the gap between casual and hardcore since 2021 - Kef</i>
         </p>
-        <Links />
+        <SocialLinks />
       </div>
     </div>
   </div>
@@ -24,11 +24,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Logo from '../components/Logo.vue'
-import Links from '../components/Links.vue'
+import SocialLinks from '../components/SocialLinks.vue'
 
 export default defineComponent({
   name: 'home',
-  components: { Logo, Links },
+  components: { Logo, SocialLinks },
 })
 </script>
 
@@ -38,7 +38,7 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #0f001c;
+  background-color: #120a1a;
 }
 .content {
   display: flex;

@@ -12,7 +12,6 @@ export default defineComponent({
 <style>
 .logo {
   max-width: 340px;
-  max-height: 100%;
   height: auto;
 }
 </style>

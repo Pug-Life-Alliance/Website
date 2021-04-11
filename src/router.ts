@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
-import Podcasts from './views/Podcasts.vue'
+import Podcast from './views/Podcast.vue'
 
-const routes: RouteRecordRaw[] = [
+const routes = [
   { path: '/', name: 'home', component: Home },
-  { path: '/podcasts', name: 'podcasts', component: Podcasts },
+  { path: '/podcast', name: 'podcast', component: Podcast },
 ]
 
 const router = createRouter({
