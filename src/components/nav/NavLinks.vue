@@ -26,9 +26,10 @@ export default defineComponent({
   text-decoration: none;
   justify-content: flex-end;
   align-items: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   color: #262626;
+  padding: 20px 0;
 }
 .link:hover {
   color: #464646;
