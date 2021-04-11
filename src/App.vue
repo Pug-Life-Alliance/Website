@@ -1,12 +1,15 @@
 <template>
+  <NavBar />
   <router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import NavBar from './components/nav/NavBar.vue'
 
 export default defineComponent({
   name: 'App',
+  components: { NavBar },
 })
 </script>
 
@@ -16,8 +19,11 @@ export default defineComponent({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff;
-  background-color: #0f001c;
+  color: #262626;
+  background-color: #e9e1d9;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
 }
 body {
   margin: 0;

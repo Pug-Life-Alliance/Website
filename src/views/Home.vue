@@ -1,9 +1,8 @@
 <template>
-  <div class="container">
-    <div class="content">
+  <div class="home-container">
+    <div class="home-content">
       <div>
-        <Logo />
-        <p class="about">
+        <div class="about">
           PLA was created with a single goal in mind, to bring the joy back into
           playing games. Somewhere along the way we, as gamers, lost the simple
           joy and relief that living in a fantasy world brings. We don’t want to
@@ -11,10 +10,10 @@
           into a story and get lost for a few hours and escape the world. If you
           are looking for a group of like minded people to play with, come and
           join us. Together we will save games...
-        </p>
-        <p class="quote">
+        </div>
+        <div class="quote">
           <i>Bridging the gap between casual and hardcore since 2021 - Kef</i>
-        </p>
+        </div>
         <SocialLinks />
       </div>
     </div>
@@ -23,40 +22,38 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Logo from '../components/Logo.vue'
 import SocialLinks from '../components/SocialLinks.vue'
 
 export default defineComponent({
   name: 'home',
-  components: { Logo, SocialLinks },
+  components: { SocialLinks },
 })
 </script>
 
-<style>
-.container {
+<style scoped>
+.home-container {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #120a1a;
 }
-.content {
+.home-content {
   display: flex;
   margin: 0 auto;
   max-width: 800px;
   padding: 24px;
 }
 .about {
+  display: flex;
   padding: 20px;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-family: 'Roboto', Georgia, Arial, sans-serif;
   font-size: 20px;
-  color: #ffffff;
 }
 .quote {
-  flex-direction: column;
+  display: flex;
+  justify-content: center;
   padding: 20px;
   font-family: 'Roboto', Georgia, sans-serif;
   font-size: 18px;
-  color: #ffffff;
 }
 </style>

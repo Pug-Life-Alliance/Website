@@ -1,5 +1,5 @@
 <template>
-  <div class="links">
+  <div class="social-links">
     <a href="https://discord.gg/pJcspnkwKS" title="PLA Discord">
       <font-awesome-icon :icon="['fab', 'discord']" />
     </a>
@@ -31,20 +31,20 @@ export default defineComponent({
 })
 </script>
 
-<style>
-.links {
+<style scoped>
+.social-links {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   margin: 0 auto;
   justify-content: center;
 }
 a {
   display: flex;
-  color: #ffffff;
+  color: #262626;
   font-size: 32px;
   padding: 20px;
 }
 a:hover {
-  color: #c6c6c6;
+  color: #464646;
 }
 </style>
