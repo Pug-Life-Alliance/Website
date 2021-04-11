@@ -22,9 +22,14 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent } from 'vue'
+import Logo from '../components/Logo.vue'
+import Links from '../components/Links.vue'
 
-export default Vue.extend({})
+export default defineComponent({
+  name: 'Home',
+  components: { Logo, Links },
+})
 </script>
 
 <style>
@@ -48,8 +53,9 @@ export default Vue.extend({})
   color: #ffffff;
 }
 .quote {
+  flex-direction: column;
   padding: 20px;
-  font-family: 'Noto Sans JP', Arial, sans-serif;
+  font-family: 'Roboto', Georgia, sans-serif;
   font-size: 18px;
   color: #ffffff;
 }
