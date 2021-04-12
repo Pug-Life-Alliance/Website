@@ -1,36 +1,35 @@
 <template>
-  <div class="container">
-    <div class="content">
-      <div class="title">PugLifeAlliance Podcast</div>
+  <div class="nav-container">
+    <div class="width-wrapper">
+      <Logo />
+      <NavLinks />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import NavLinks from './NavLinks.vue'
+import Logo from '../Logo.vue'
 
 export default defineComponent({
-  name: 'podcasts',
+  name: 'navBar',
+  components: { NavLinks, Logo },
 })
 </script>
 
 <style scoped>
-.container {
+.nav-container {
   display: flex;
   justify-content: center;
   flex: 1 1 auto;
 }
-.content {
+.width-wrapper {
   display: flex;
   max-width: 1100px;
   flex-flow: row wrap;
   justify-content: space-between;
   flex: 1 1 auto;
   margin: 20px;
-  min-height: 100vh;
-}
-.title {
-  font-size: 32px;
-  font-family: 'Rakkas';
 }
 </style>
