@@ -1,6 +1,6 @@
 <template>
   <router-link to="/">
-    <img class="logo" src="../assets/pla_logo_text.png" alt="PLA Logo" />
+    <img class="logo" src="../assets/pla_logo_head_text.svg" alt="PLA Logo" />
   </router-link>
 </template>
 
